@@ -1,0 +1,210 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: black;
+}
+
+body {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-flex;
+  font-size: 1.5rem;
+  color: white;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: white;
+}
+
+h2 {
+  font-size: 2.3rem;
+  margin: 30px auto;
+}
+
+h4 {
+  font-size: 1.7rem;
+  padding: 10px;
+  background-color: transparent;
+}
+
+header {
+  width: 100%;
+  background-color: #80DAD0;
+  border-bottom: 1px solid grey;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+}
+
+main {
+  position: relative;
+  display: flex;
+  top: 4rem;
+  flex-flow: column;
+  align-items: center;
+}
+
+/* Main banner */
+#mission {
+  background-image: url('../images/mission-background.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  /* max-width: 1200px; */
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero {
+  background-color: #EAD4E8;
+  width: 100%;
+  opacity: 0.5;
+  padding: 20px;
+}
+
+.hero h2 {
+  font-weight: bolder;
+  font-size: 4rem;
+}
+
+/* Gallery */
+#gallery {
+  width: 80%;
+  margin: 50px;
+  display: block;
+}
+
+.gallery-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 10px;
+}
+
+.gallery-img { 
+  width: 300px;
+  margin: 12.5px;
+}
+
+.gallery-img img {
+    width: 300px;
+    height: 200px;
+} 
+
+/* Questions */
+#story {
+  background-image: url('../images/questions-background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  /* max-width: 1200px; */
+  max-height: 700px;
+  position: relative;
+  display: flex;
+  flex: 1 1200px;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 auto;
+}
+ 
+.story-container {
+  width: 90%;
+  max-width: 1200px;
+  max-height: 300px;
+  display: flex;
+  flex: 1 1200px;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  margin: 0 20px;
+  background-color: #EAD4E8;
+  opacity: 0.5;
+  border-radius: 150px;
+}
+
+#story h2 {
+  color: #80DAD0;
+  font-size: 3rem;
+}
+
+ .story h4 {
+  font-weight: lighter;
+  font-size: 2rem;
+  line-height: 3rem;
+}
+
+/* Team */
+#team{
+width: 80%;
+margin: 50px;
+display: block;
+}
+
+.team-container {
+display: inline-flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: 0 10px;
+}
+
+.team-member { 
+width: 300px;
+margin: 12.5px;
+}
+
+.team-member img {
+  width: 300px;
+  height: 330px;
+} 
+
+#team h2 {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+/* Contact */
+#contact {
+  background-color: #80DAD0;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Footer */
+footer {
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
+}
